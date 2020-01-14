@@ -3,9 +3,9 @@ package ua.javabegin.javasintaxis;
 public class Car { 
 	private String name;
 	
-	private int i=5,Z=6;
-	private int x=7;
-	private int j=7;
+	private int i=5,z=6;
+//	private int x=7;
+//	private int j=7;
 	
 	public Car(int i, String name) {
 		this.i = i;
@@ -16,13 +16,17 @@ public class Car {
 		go (i);
 
 	}
+	public   int sum() {
+		return i+z;
+		
+	}
 	public void go(int i) {
 // 		local variable
 		int count =0;
 		count++;
 		System.out.println(i);
 		if (count>8) {
-			int j=5;
+//			int j=5;
 		}
 	}
 	public int getI() {
